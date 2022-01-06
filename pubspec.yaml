@@ -36,6 +36,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   font_awesome_flutter: ^9.2.0
   google_fonts: ^2.2.0
+  google_nav_bar: ^5.0.5
+  # firebase_core: ^1.10.6
+  # cloud_firestore: ^3.1.5
 
 dev_dependencies:
   flutter_test:
@@ -63,6 +66,29 @@ flutter:
   assets:
     - assets/Group.png
     - assets/Frame.png
+    - assets/g4387.png
+    - assets/icecream.png
+    - assets/burger.png
+    - assets/cheeseburger.png
+    - assets/chicken.png
+    - assets/heart_icon.png
+    - assets/credit_icon.png
+    - assets/help_center.png
+    - assets/Promotions.png
+    - assets/shopping-bag.png
+    - assets/hm_icons_bell.png
+    - assets/Credit_card.png
+    - assets/Covid_banner.png
+    - assets/tag.png
+    - assets/discount (1).png
+    - assets/premium.png
+    - assets/event.png
+    - assets/credit_icon.png
+    - assets/FoodlLy Pass.png
+    - assets/Clipboard - 2020-09-16 12.31.46.png
+    - assets/pass.png
+    - assets/Ellipse 40.png
+    - assets/Order.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

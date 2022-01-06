@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:star_cafe/promotional_page.dart';
 import 'package:star_cafe/splash_screen.dart';
 
 void main() {
