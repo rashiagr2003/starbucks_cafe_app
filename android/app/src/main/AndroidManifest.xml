@@ -1,8 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.star_cafe">
    <application
-        android:label="star_cafe"
-        android:icon="@mipmap/ic_launcher">
+        android:label="Food Plaza"
+        android:icon="@mipmap/app_icon">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

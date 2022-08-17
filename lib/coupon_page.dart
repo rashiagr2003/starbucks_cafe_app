@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:star_cafe/colors.dart';
 
 class CouponPage extends StatefulWidget {
   const CouponPage({Key? key}) : super(key: key);
@@ -72,11 +73,11 @@ class _CouponPageState extends State<CouponPage> {
                                 children: [
                                   CircleAvatar(
                                     radius: 42.5,
-                                    backgroundColor:
-                                        Color(0xffFF0A38).withOpacity(0.10),
-                                    backgroundImage: AssetImage(
+                                    backgroundColor: const Color(0xffFF0A38)
+                                        .withOpacity(0.10),
+                                    backgroundImage: const AssetImage(
                                         "assets/Clipboard - 2020-09-16 12.31.46.png"),
-                                    child: Image(
+                                    child: const Image(
                                         image: AssetImage("assets/pass.png")),
                                   ),
                                   Container(
@@ -85,7 +86,7 @@ class _CouponPageState extends State<CouponPage> {
                                       style: GoogleFonts.sourceSerifPro(
                                           fontWeight: FontWeight.bold,
                                           fontSize: 20,
-                                          color: Colors.black),
+                                          color: AppColor.backgroundColor),
                                     ),
                                   ),
                                   Container(

@@ -42,17 +42,20 @@ class _PaymentScreenState extends State<PaymentScreen> {
               ),
             ),
           ),
-          bottom: TabBar(tabs: [
-            Tab(
-              text: "Card",
-            ),
-            Tab(
-              text: "Paypal",
-            ),
-            Tab(
-              text: "Gift Card",
-            )
-          ]),
+          bottom: TabBar(
+            tabs: [
+              Tab(
+                text: "Card",
+              ),
+              Tab(
+                text: "Paypal",
+              ),
+              Tab(
+                text: "Gift Card",
+              )
+            ],
+            labelColor: Colors.black,
+          ),
         ),
         body: Column(
           children: [

@@ -97,18 +97,18 @@ class _SearchScreenState extends State<SearchScreen> {
             SizedBox(
               height: 12,
             ),
-            resturantCard("Ambience", " American . Fingerchips . Fast Food",
-                "assets/burger.png", context),
-            resturantCard(
-                "Tandoor Cafe",
-                " American . Cheeseburger . Fast Food",
-                "assets/cheeseburger.png",
-                context),
-            resturantCard(
-                "Ahmed Resturant",
-                " American . Special chicken . Fast Food",
-                "assets/chicken.png",
-                context)
+            // resturantCard("Ambience", " American . Fingerchips . Fast Food",
+            //     "assets/burger.png", context),
+            // resturantCard(
+            //     "Tandoor Cafe",
+            //     " American . Cheeseburger . Fast Food",
+            //     "assets/cheeseburger.png",
+            //     context),
+            // resturantCard(
+            //     "Ahmed Resturant",
+            //     " American . Special chicken . Fast Food",
+            //     "assets/chicken.png",
+            //     context)
           ],
         ),
       ),

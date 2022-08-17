@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:star_cafe/contact.dart';
 import 'package:star_cafe/notification_screen.dart';
 import 'package:star_cafe/payment_screen.dart';
 import 'package:star_cafe/promotional_page.dart';
@@ -118,10 +119,16 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   color: Color(0xff009F0B).withOpacity(0.10),
                   borderRadius: BorderRadius.circular(10)),
             ),
-            title: Text(
-              "Help",
-              style:
-                  GoogleFonts.sourceSerifPro(fontSize: 16, color: Colors.black),
+            title: GestureDetector(
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => ContactScreen()));
+              },
+              child: Text(
+                "Help",
+                style: GoogleFonts.sourceSerifPro(
+                    fontSize: 16, color: Colors.black),
+              ),
             ),
           ),
           ListTile(

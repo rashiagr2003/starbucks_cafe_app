@@ -54,14 +54,16 @@ class _MainScreenState extends State<MainScreen> {
             hoverColor: Colors.grey[100]!,
             tabBackgroundColor: Colors.red,
             gap: 8,
-            activeColor: Colors.black,
+            activeColor: Colors.white,
             iconSize: 24,
-            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 6),
             duration: Duration(milliseconds: 400),
             // tabBackgroundColor: Colors.grey[100]!,
+
             color: Colors.black,
             tabs: [
               GButton(
+                margin: EdgeInsets.symmetric(vertical: 7),
                 icon: Icons.home,
                 text: 'Home',
               ),
@@ -84,8 +86,7 @@ class _MainScreenState extends State<MainScreen> {
                 currentIndex = index;
               });
               _pageController.animateToPage(currentIndex,
-                  duration: Duration(milliseconds: 500),
-                  curve: Curves.bounceIn);
+                  duration: Duration(milliseconds: 200), curve: Curves.easeIn);
             }));
   }
 }

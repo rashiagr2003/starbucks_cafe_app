@@ -37,9 +37,12 @@ dependencies:
   font_awesome_flutter: ^9.2.0
   google_fonts: ^2.2.0
   google_nav_bar: ^5.0.5
-  # firebase_core: ^1.10.6
-  # cloud_firestore: ^3.1.5
-
+  url_launcher:
+  share: ^2.0.4
+  ionicons: ^0.1.2
+  firebase_core: ^1.10.6
+  cloud_firestore: ^3.1.5
+ 
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -89,6 +92,16 @@ flutter:
     - assets/pass.png
     - assets/Ellipse 40.png
     - assets/Order.png
+    - assets/app_icon.png
+    - assets/image.png
+    - assets/Logo.png
+    - assets/BImage.png
+    - assets/4.png
+    - assets/Mask.png
+    - assets/Group 268.png
+    - assets/Communication-icon.png
+    - assets/Illustration.png
+    - assets/Rectangle.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
